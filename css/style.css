@@ -1,0 +1,112 @@
+@page {
+  margin: 200px 0 10px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 25px 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, red, green);
+}
+
+html {
+  margin-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.ktm {
+  width: 9cm;
+  height: auto;
+  background: url("img/ktm.jpg") no-repeat;
+  background-size: cover;
+}
+
+.ktmImage {
+  width: 100%;
+  height: auto;
+}
+
+.printIn {
+  max-width: 610px;
+  position: relative;
+}
+
+.textIn {
+  position: absolute;
+  top: 63%;
+  left: 5%;
+}
+
+.photoIn {
+  border-radius: 16px;
+  width: 25%;
+  position: absolute;
+  right: 5%;
+  top: 29%;
+  border: none;
+  box-sizing: border-box;
+}
+
+.nim {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.jk,
+.nama,
+.prodi,
+.ttl {
+  font-size: 0.7em;
+  margin-top: 1.5%;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  *,
+  body {
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .printIn {
+    width: 8.6cm;
+    height: 5.4cm;
+  }
+
+  .nim {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .jk,
+  .nama,
+  .ttl {
+    font-size: 8px;
+    margin-top: 1%;
+  }
+
+  .prodi {
+    font-size: 8px;
+    margin-top: 1%;
+    text-transform: uppercase;
+  }
+}
