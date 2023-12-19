@@ -18,7 +18,7 @@
                     <img src="img/badge-1.png" class="w-50" alt="">
                 </div>
                 <h3 class="text-center">Form Cetak KTM</h3>
-                <p class="text-center text-secondary opacity-25">STMIK TASIKMALAYA VS UNPER TASIKMALAYA</p>
+                <p class="text-center text-secondary opacity-25">STMIK TASIKMALAYA & UNPER TASIKMALAYA</p>
                 <form method="POST" action="cetak_ktm.php">
                     <div class="mb-3 mt-3">
                         <label for="nim" class="form-label">NIM :</label>
