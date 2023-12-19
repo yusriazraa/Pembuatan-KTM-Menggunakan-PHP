@@ -28,7 +28,7 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Cek apakah ada input yang kosong
             if (empty($_POST["nim"]) || empty($_POST["nama"]) || empty($_POST["jenis_kelamin"]) || empty($_POST["tempat_lahir"]) || empty($_POST["tanggal_lahir"]) || empty($_POST["prodi"])) {
-                echo "<script>alert('Harap lengkapi semua kolom pada form!'); window.location.href='index.php';</script>";
+                echo "<script>alert('Isi Terlebih dahulu form KTM!'); window.location.href='index.php';</script>";
                 exit;
             }
         }

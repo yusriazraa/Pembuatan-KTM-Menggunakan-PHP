@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Cetak KTM</title>
     <link href="bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="css/style.css">
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js" ></script>
 </head>
-<body >
+<body style="background: linear-gradient(90deg, red, green);" >
     <div class="container ">
         <div class="row justify-content-center p-5">
             <div class="col-md-3">
                 <img class="w-100" src="img/logo-stmik.png" alt="">
             </div>
-            <div class="col-md-5 bg-light p-4">
-                <img src="" alt="">
+            <div class="col-md-5 bg-light p-4 rounded-4">
+                <div class="d-flex justify-content-center">
+                    <img src="img/badge-1.png" class="w-50" alt="">
+                </div>
                 <h3 class="text-center">Form Cetak KTM</h3>
+                <p class="text-center text-secondary opacity-25">STMIK TASIKMALAYA VS UNPER TASIKMALAYA</p>
                 <form method="POST" action="cetak_ktm.php">
                     <div class="mb-3 mt-3">
                         <label for="nim" class="form-label">NIM :</label>
